@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project related
+data/
+checkpoints/
+*.pt
+venv/
+.ipynb_checkpoints/
