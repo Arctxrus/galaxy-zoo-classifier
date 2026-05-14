@@ -218,8 +218,11 @@ __marimo__/
 .streamlit/secrets.toml
 
 # Project related
-data/
+data/*
 checkpoints/
 *.pt
 venv/
 .ipynb_checkpoints/
+*.h5
+!deploy/model.pt
+!data/splits.csv
